@@ -1,1 +1,1 @@
-# Water-reminder-App
+# Friends Chat App
