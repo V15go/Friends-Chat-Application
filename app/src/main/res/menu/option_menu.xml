@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="@string/find_friends"
+        android:id="@+id/find_friends_option"
+        android:icon="@drawable/ic_baseline_celebration_24"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/my_friends"
+        android:id="@+id/my_friends_option"
+        android:icon="@drawable/ic_baseline_checklist_24"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="@string/requests"
+        android:id="@+id/Requests"
+        android:icon="@drawable/ic_baseline_check_circle_outline_24"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="@string/log_out"
+        android:id="@+id/log_out_btn"
+        android:icon="@drawable/ic_baseline_logout_24"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+
+</menu>

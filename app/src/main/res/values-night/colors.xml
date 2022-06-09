@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#870CD5</color>
+    <color name="secondary">#910EDC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="voilet">#740CBD</color>
+    <color name="voilet2">#740CBD</color>
+    <color name="transparent">#0000ffff</color>
+    <color name="light_stroke">#201724</color>
+    <color name="dark_stroke">#444446</color>
+
+
+
+    <color name="text_color">#FFFFFF</color>
+
+
+    
+</resources>

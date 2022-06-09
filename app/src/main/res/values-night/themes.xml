@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Chat_app" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/secondary</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+
+        <!-- Secondary brand color. -->
+
+        <item name="colorSecondary">@color/voilet2</item>
+        <item name="colorSecondaryVariant">@color/voilet</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="background">@drawable/black_bg</item>
+        <item name="android:windowBackground">@drawable/black_bg</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

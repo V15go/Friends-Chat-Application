@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+<include
+    android:id="@+id/toolbar_top_main"
+    layout="@layout/custom_toolbar"
+
+    >
+</include>
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_container"
+        />
+
+
+
+
+
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+    android:layout_width="match_parent"
+    android:id="@+id/navigation_bar"
+    android:layout_height="60dp"
+    app:cnb_iconSize="28dp"
+    app:cnb_badgeColor="@color/white"
+    android:elevation="20sp"
+
+    app:cnb_unselectedColor="@color/white"
+    android:layout_alignParentBottom="true"
+
+    android:fadingEdge="horizontal"
+    android:background="@drawable/menu_background"
+    app:cnb_menuResource="@menu/bottom_menu"
+    />
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+

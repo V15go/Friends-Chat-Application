@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_desig"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+
+
+    >
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/back_btn"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/barriecito"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:textColor="@color/white"
+ />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@color/voilet2"
+        android:id="@+id/profile_pic_of_reciver"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_of_reciver"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:id="@+id/name_friend"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+
+
+</LinearLayout>
+
+
+
+</Toolbar>

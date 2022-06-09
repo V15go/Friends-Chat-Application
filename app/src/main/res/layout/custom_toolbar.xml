@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_desig"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/name_of_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/barriecito"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white"
+        android:text="@string/name"
+        android:textSize="30sp" />
+
+
+
+
+</Toolbar>
